@@ -27,7 +27,7 @@ class Importer {
 		$arrArticle = array();
 		$arrTagNames = array(
 			$this::INT_STATE_TITLE => array('name' => 'title', 'output_key' => 'title'),
-			$this::INT_STATE_SOURCEURL => array('name' => 'link', 'output_key' => 'source_url'),
+			//$this::INT_STATE_SOURCEURL => array('name' => 'link', 'output_key' => 'source_url'),
 			$this::INT_STATE_AUTHOR => array('name' => 'dc:creator', 'output_key' => 'author'),
 			$this::INT_STATE_CONTENT => array('name' => 'content', 'output_key' => 'content'),
 			$this::INT_STATE_DATE => array('name' => 'pubDate', 'output_key' => 'datestamp')
